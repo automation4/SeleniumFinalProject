@@ -38,6 +38,11 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.5</version> <!-- Current stable version as of 2026 -->
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>TestxmlSuites/PositiveTestSuiteHerrukoProperty.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
             </plugin>
         </plugins>
     </build>
