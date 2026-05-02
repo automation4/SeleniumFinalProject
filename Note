@@ -1,0 +1,7 @@
+
+null pointer exception
+jab variable(webdriver) initialize nai hota toh null pointer exception aata h
+
+
+no such element exception
+jab element nai milta DOM m

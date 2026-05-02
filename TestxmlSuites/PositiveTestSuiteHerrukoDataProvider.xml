@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HerrukoSuite">
+
+    <test name="HerrukoPositiveTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.tests.PracticeTests.MyHerokuappLoginAppchDP_Test" />
+        </classes>
+    </test>
+</suite>

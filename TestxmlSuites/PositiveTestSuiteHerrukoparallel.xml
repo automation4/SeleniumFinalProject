@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HerrukoSuite"  parallel="tests" thread-count="2">
+
+    <test name="HerrukoPositiveTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="username" value="tomsmith"></parameter>
+        <parameter name="password" value="SuperSecretPassword!"></parameter>
+        <classes>
+            <class name="com.tests.PracticeTests.MyHerokuappLoginAppch_P_Test" />
+        </classes>
+    </test>
+    <test name="HerrukoNegativeTest2">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="username" value="tomsmddith"></parameter>
+        <parameter name="password" value="SuperSedcretPassword!"></parameter>
+        <classes>
+            <class name="com.tests.PracticeTests.MyHerokuappLoginAppch_P_Test" />
+        </classes>
+    </test>
+</suite>

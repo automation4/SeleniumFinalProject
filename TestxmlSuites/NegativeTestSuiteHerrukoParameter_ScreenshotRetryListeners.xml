@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HerrukoSuite">
+    <listeners>
+        <listener class-name="com.tests.MyListeners.TestListener"></listener>
+    </listeners>
+    <test name="HerrukoNegativeTest">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="username" value="tomssmith"></parameter>
+        <parameter name="password" value="SuperSecdddretPassword!"></parameter>
+        <classes>
+            <class name="com.tests.PracticeTests.MyHerokuappLoginAppch_PScreenshotFail_RetryListener_Test" />
+        </classes>
+    </test>
+</suite>
